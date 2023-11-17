@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<form id="formulario">
+    <p id="titulo">Formulário</p>
+    <div>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" required>
+    </div>
+
+    <div>
+        <label for="idade">Idade: </label>
+        <input type="number" id="idade" required>
+    </div>
+
+    <div>
+        <span>Sexo: </span>
+        <input type="radio" id="m" name="sexo" required>
+        <label for="m">Masculino </label>
+
+        <input type="radio" id="f" name="sexo" required>
+        <label for="f">Feminino </label>
+
+        <input type="radio" id="n" name="sexo" required>
+        <label for="n">Não informado </label>
+    </div>
+
+    <div>
+        <label for="pais">País: </label>
+        <input type="text" id="pais" required>
+    </div>
+   
+    <div>
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" placeholder="4 a 8 caracteres - incluir '$'" required>
+    </div>
+
+    <button id="btnCadastrar" >Cadastrar</button>
+</form>
+
+    <div id="erro" class="alerta hide">
+        <span>Erro encontrado!</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

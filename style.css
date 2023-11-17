@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div{
+    margin: 20px auto;
+}
+
+.erro{
+    border: 1px solid red;
+}
+
+.hide{
+    display: none;
+}
+
+.alerta{
+    background-color: rgb(184, 28, 28);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    margin: 10px 110px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+#formulario{
+    border: 2px solid rgb(70, 97, 105);
+    padding: 10px;
+    width: 450px;
+}
+
+#titulo{
+    color: rgb(70, 97, 105);
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#btnCadastrar{
+    border-radius: 8px;
+    border: 2px solid rgb(70, 97, 105);
+    background-color: rgb(70, 97, 105);
+    color: white;
+}
